@@ -22,7 +22,7 @@
   },
   "build": {
     "appId": "org.maibot.dashboard",
-    "productName": "MaiBot Dashboard",
+    "productName": "Mcore Dashboard",
     "directories": {
       "output": "dist-electron",
       "buildResources": "electron/resources"

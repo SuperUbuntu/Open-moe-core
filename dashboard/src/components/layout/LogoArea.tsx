@@ -21,7 +21,7 @@ export function LogoArea({ sidebarOpen }: LogoAreaProps) {
           "flex items-baseline gap-2",
           !sidebarOpen && "lg:hidden"
         )}>
-          <span className="font-bold text-xl text-primary-gradient whitespace-nowrap">MaiBot WebUI</span>
+          <span className="font-bold text-xl text-primary-gradient whitespace-nowrap">Mcore WebUI</span>
           <span className="text-xs text-primary/60 whitespace-nowrap">
             {formatVersion()}
           </span>

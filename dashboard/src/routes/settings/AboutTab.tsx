@@ -238,7 +238,7 @@ export function AboutTab() {
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm sm:text-base font-semibold text-foreground mb-1">
-                  MaiBot WebUI
+                  Mcore WebUI
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   {t('settings.about.licenseDesc')}

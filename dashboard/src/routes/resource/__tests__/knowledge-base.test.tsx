@@ -566,7 +566,7 @@ describe('KnowledgeBasePage import workflow', () => {
     await waitFor(() => expect(memoryApi.createMemoryTemporalBackfillImport).toHaveBeenCalledTimes(1))
 
     await openImportTab()
-    await user.click(screen.getByRole('tab', { name: 'MaiBot 迁移' }))
+    await user.click(screen.getByRole('tab', { name: 'Mcore 迁移' }))
     await user.click(screen.getByRole('button', { name: '创建导入任务' }))
     await waitFor(() => expect(memoryApi.createMemoryMaibotMigrationImport).toHaveBeenCalledTimes(1))
 

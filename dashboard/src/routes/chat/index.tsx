@@ -143,7 +143,7 @@ export function ChatPage() {
           console.error('[Chat] 获取平台列表失败: 非 JSON 响应:', text.substring(0, 200))
           toast({
             title: '连接失败',
-            description: '无法连接到后端服务，请确保 MaiBot 已启动',
+            description: '无法连接到后端服务，请确保 Mcore 已启动',
             variant: 'destructive',
           })
         }

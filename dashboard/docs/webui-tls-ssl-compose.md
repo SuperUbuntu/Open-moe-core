@@ -1,6 +1,6 @@
-# MaiBot WebUI Compose TLS/SSL 教程
+# Mcore WebUI Compose TLS/SSL 教程
 
-本文档专门说明 Docker Compose 部署下如何通过 Caddy 为 MaiBot WebUI 提供 HTTPS。
+本文档专门说明 Docker Compose 部署下如何通过 Caddy 为 Mcore WebUI 提供 HTTPS。
 
 ## 1. 目标结构
 
@@ -11,7 +11,7 @@
   -> https://maibot.example.com
   -> Caddy 容器 :80/:443
   -> core 容器 :8001
-  -> MaiBot WebUI
+  -> Mcore WebUI
 ```
 
 这意味着：

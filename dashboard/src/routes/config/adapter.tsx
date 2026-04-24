@@ -588,7 +588,7 @@ export function AdapterConfigPage() {
                       </div>
                       <div className="pl-2 space-y-0.5 text-[10px] md:text-xs break-all">
                         <div>C:\Adapter\config.toml</div>
-                        <div className="hidden sm:block">D:\MaiBot\adapter\config.toml</div>
+                        <div className="hidden sm:block">D:\Mcore\adapter\config.toml</div>
                         <div className="hidden sm:block">\\server\share\config.toml</div>
                       </div>
                     </div>

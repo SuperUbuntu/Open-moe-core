@@ -6,8 +6,8 @@
     "viewAnnualSummary": "연간 요약 보기",
     "annualSummary": "2025 연간 요약",
     "searchPlaceholder": "검색...",
-    "viewDocs": "MaiBot 문서 보기",
-    "docs": "MaiBot 문서",
+    "viewDocs": "Mcore 문서 보기",
+    "docs": "Mcore 문서",
     "switchToLight": "라이트 모드로 전환",
     "switchToDark": "다크 모드로 전환",
     "logout": "로그아웃",
@@ -45,7 +45,7 @@
   },
   "layout": {
     "verifyingLogin": "로그인 상태 확인 중...",
-    "logoTitle": "MaiBot WebUI",
+    "logoTitle": "Mcore WebUI",
     "logoTitleShort": "M"
   },
   "settings": {
@@ -291,7 +291,7 @@
     },
     "about": {
       "openSource": "오픈 소스",
-      "aboutApp": "MaiBot Dashboard 정보",
+      "aboutApp": "Mcore Dashboard 정보",
       "version": "버전:",
       "author": "작성자",
       "techStack": "기술 스택",
@@ -303,8 +303,8 @@
       "openSourceLicense": "오픈 소스 라이선스",
       "openSourceDesc": "이 프로젝트는 GitHub에서 오픈 소스입니다. Star ⭐로 응원해 주세요!",
       "visitGitHub": "GitHub 방문",
-      "appDesc": "MaiBot의 현대적인 웹 관리 인터페이스",
-      "maimaiCore": "MaiBot 코어",
+      "appDesc": "Mcore의 현대적인 웹 관리 인터페이스",
+      "maimaiCore": "Mcore Core",
       "uiFrameworkGroup": "UI 프레임워크 & 컴포넌트",
       "routingStateGroup": "라우팅 & 상태 관리",
       "formGroup": "폼 처리",
@@ -351,16 +351,16 @@
     "loginFailed": "로그인 실패",
     "loginSuccess": "로그인 성공",
     "checkingAuth": "로그인 상태 확인 중...",
-    "welcome": "MaiBot에 오신 것을 환영합니다",
+    "welcome": "Mcore에 오신 것을 환영합니다",
     "accessDesc": "시스템에 액세스하려면 액세스 토큰을 입력하세요",
     "tokenRequired": "액세스 토큰을 입력해 주세요",
     "verifyingLabel": "확인 중...",
     "verifyEnter": "확인 후 입장",
     "helpLink": "Token이 없습니다. 어디서 얻을 수 있나요?",
     "helpTitle": "Access Token 얻는 방법",
-    "helpDesc": "Access Token은 MaiBot WebUI에 액세스하는 유일한 자격 증명입니다. 다음 방법으로 얻으세요",
+    "helpDesc": "Access Token은 Mcore WebUI에 액세스하는 유일한 자격 증명입니다. 다음 방법으로 얻으세요",
     "method1Title": "방법 1: 시작 로그 확인",
-    "method1Desc": "MaiBot 시작 시 콘솔에 WebUI Access Token이 표시됩니다.",
+    "method1Desc": "Mcore 시작 시 콘솔에 WebUI Access Token이 표시됩니다.",
     "method1Example1": "🔑 WebUI Access Token: abc123...",
     "method1Example2": "💡 이 Token으로 WebUI에 로그인하세요",
     "method2Title": "방법 2: 설정 파일 확인",
@@ -566,12 +566,12 @@
       "siliconFlow": {
         "about": {
           "title": "SiliconFlow 소개",
-          "description": "SiliconFlow 는 DeepSeek V3, Qwen, 비전 모델, 음성 인식, 임베딩 모델 등 폭넓은 모델을 제공합니다. API Key 하나로 MaiBot 의 모든 기능을 사용할 수 있습니다.",
+          "description": "SiliconFlow 는 DeepSeek V3, Qwen, 비전 모델, 음성 인식, 임베딩 모델 등 폭넓은 모델을 제공합니다. API Key 하나로 Mcore 의 모든 기능을 사용할 수 있습니다.",
           "link": "SiliconFlow 에서 API Key 받기"
         },
         "apiKey": {
           "label": "SiliconFlow API Key *",
-          "description": "SiliconFlow API Key를 입력해 주세요. 입력하면 MaiBot 이 필요한 모델을 자동으로 구성합니다.",
+          "description": "SiliconFlow API Key를 입력해 주세요. 입력하면 Mcore 이 필요한 모델을 자동으로 구성합니다.",
           "show": "API Key 표시",
           "hide": "API Key 숨기기"
         },
@@ -611,9 +611,9 @@
   "restart": {
     "preparing": "재시작 준비 중",
     "preparingDesc": "재시작 요청 전송 중...",
-    "preparingTip": "🔄 MaiBot 재시작을 준비 중...",
-    "restarting": "MaiBot 재시작 중",
-    "restartingDesc": "잠시 기다려주세요, MaiBot이 재시작 중입니다...",
+    "preparingTip": "🔄 Mcore 재시작을 준비 중...",
+    "restarting": "Mcore 재시작 중",
+    "restartingDesc": "잠시 기다려주세요, Mcore가 재시작 중입니다...",
     "restartingTip": "🔄 설정을 저장했습니다, 메인 프로세스를 재시작 중...",
     "checking": "서비스 상태 확인 중",
     "checkingDesc": "서비스 복구 대기 중... ({{current}}/{{max}})",
@@ -688,9 +688,9 @@
   },
   "home": {
     "title": "실시간 모니터",
-    "subtitle": "MaiBot 실행 상태 및 통계 데이터 개요",
+    "subtitle": "Mcore 실행 상태 및 통계 데이터 개요",
     "loading": "통계 데이터 로딩 중...",
-    "loadingHint": "MaiBot 실행 데이터를 가져오는 중",
+    "loadingHint": "Mcore 실행 데이터를 가져오는 중",
     "timeRange": {
       "24h": "24시간",
       "7d": "7일",
@@ -698,14 +698,14 @@
     },
     "autoRefresh": "자동 새로고침",
     "botStatus": {
-      "title": "MaiBot 상태",
+      "title": "Mcore 상태",
       "running": "실행 중",
       "stopped": "중지됨",
       "uptime": "가동 {{time}}"
     },
     "quickActions": {
       "title": "빠른 작업",
-      "restart": "MaiBot 재시작",
+      "restart": "Mcore 재시작",
       "restarting": "재시작 중...",
       "expressionReview": "표현 검토",
       "viewLogs": "로그 보기",
@@ -716,7 +716,7 @@
       "title": "피드백 설문",
       "description": "제품 경험 개선에 도움을 주세요",
       "webui": "WebUI 피드백",
-      "maibot": "MaiBot 피드백"
+      "maibot": "Mcore 피드백"
     },
     "stats": {
       "totalRequests": "총 요청 수",

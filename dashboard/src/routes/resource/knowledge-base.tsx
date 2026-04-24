@@ -149,7 +149,7 @@ const IMPORT_KIND_OPTIONS: Array<{ value: MemoryImportTaskKind; label: string; d
   { value: 'lpmm_openie', label: 'LPMM OpenIE', description: '读取 LPMM 数据并抽取关系' },
   { value: 'lpmm_convert', label: 'LPMM 转换', description: '将 LPMM 数据转换到目标目录' },
   { value: 'temporal_backfill', label: '时序回填', description: '对既有数据执行时间字段回填' },
-  { value: 'maibot_migration', label: 'MaiBot 迁移', description: '从 MaiBot 历史库迁移长期记忆数据' },
+  { value: 'maibot_migration', label: 'Mcore 迁移', description: '从 Mcore 历史库迁移长期记忆数据' },
 ]
 
 function normalizeProgress(value: number | string | null | undefined): number {
@@ -1143,14 +1143,14 @@ export function KnowledgeBasePage() {
         verify_only: maibotVerifyOnly,
       })
       if (!result.success) {
-        throw new Error(result.error || '创建 MaiBot 迁移任务失败')
+        throw new Error(result.error || '创建 Mcore 迁移任务失败')
       }
-      await afterImportTaskCreated(String(result.task?.task_id ?? ''), 'MaiBot 迁移任务已创建')
+      await afterImportTaskCreated(String(result.task?.task_id ?? ''), 'Mcore 迁移任务已创建')
     } catch (error) {
-      const message = error instanceof Error ? error.message : '创建 MaiBot 迁移任务失败'
+      const message = error instanceof Error ? error.message : '创建 Mcore 迁移任务失败'
       setImportErrorText(message)
       toast({
-        title: '创建 MaiBot 迁移任务失败',
+        title: '创建 Mcore 迁移任务失败',
         description: message,
         variant: 'destructive',
       })
@@ -2573,7 +2573,7 @@ export function KnowledgeBasePage() {
 
                       <TabsContent value="maibot_migration" className="mt-0">
                         <div className="space-y-3 rounded-xl border bg-background/70 p-4">
-                          <div className="text-xs text-muted-foreground">迁移 MaiBot 历史长期记忆</div>
+                          <div className="text-xs text-muted-foreground">迁移 Mcore 历史长期记忆</div>
                           <div className="grid gap-3">
                             <div className="space-y-1">
                               <Label>源数据库路径</Label>

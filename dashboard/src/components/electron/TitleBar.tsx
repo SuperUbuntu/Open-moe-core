@@ -23,7 +23,7 @@ export function TitleBar() {
 
       {/* Title / Drag area */}
       <div className="flex flex-1 items-center justify-center text-xs font-semibold text-foreground/80">
-        MaiBot
+        Mcore
       </div>
 
       {/* Windows / Linux Controls */}

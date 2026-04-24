@@ -6,8 +6,8 @@
     "viewAnnualSummary": "年間サマリーを表示",
     "annualSummary": "2025 年間サマリー",
     "searchPlaceholder": "検索...",
-    "viewDocs": "MaiBot ドキュメントを表示",
-    "docs": "MaiBot ドキュメント",
+    "viewDocs": "Mcore ドキュメントを表示",
+    "docs": "Mcore ドキュメント",
     "switchToLight": "ライトモードに切り替える",
     "switchToDark": "ダークモードに切り替える",
     "logout": "ログアウト",
@@ -45,7 +45,7 @@
   },
   "layout": {
     "verifyingLogin": "ログイン状態を確認中...",
-    "logoTitle": "MaiBot WebUI",
+    "logoTitle": "Mcore WebUI",
     "logoTitleShort": "M"
   },
   "settings": {
@@ -291,7 +291,7 @@
     },
     "about": {
       "openSource": "オープンソース",
-      "aboutApp": "MaiBot Dashboard について",
+      "aboutApp": "Mcore Dashboard について",
       "version": "バージョン:",
       "author": "開発者",
       "techStack": "技術スタック",
@@ -303,8 +303,8 @@
       "openSourceLicense": "オープンソースライセンス",
       "openSourceDesc": "このプロジェクトは GitHub で公開されています。Star ⭐ でサポートしてください！",
       "visitGitHub": "GitHub へ進む",
-      "appDesc": "MaiBot のモダンな Web 管理インターフェース",
-      "maimaiCore": "MaiBot コア",
+      "appDesc": "Mcore のモダンな Web 管理インターフェース",
+      "maimaiCore": "Mcore Core",
       "uiFrameworkGroup": "UI フレームワーク & コンポーネント",
       "routingStateGroup": "ルーティング & 状態管理",
       "formGroup": "フォーム処理",
@@ -351,16 +351,16 @@
     "loginFailed": "ログイン失敗",
     "loginSuccess": "ログイン成功",
     "checkingAuth": "ログイン状態を確認中...",
-    "welcome": "MaiBot へようこそ",
+    "welcome": "Mcore へようこそ",
     "accessDesc": "システムにアクセスするためにアクセストークンを入力してください",
     "tokenRequired": "アクセストークンを入力してください",
     "verifyingLabel": "验証中...",
     "verifyEnter": "验証して入る",
     "helpLink": "Token がありません。どこで取得できますか？",
     "helpTitle": "Access Token の取得方法",
-    "helpDesc": "Access Token は MaiBot WebUI にアクセスする唯一の証明情報です。次の方法で取得してください",
+    "helpDesc": "Access Token は Mcore WebUI にアクセスする唯一の証明情報です。次の方法で取得してください",
     "method1Title": "方法１：起動ログを確認",
-    "method1Desc": "MaiBot 起動時にコンソールに WebUI Access Token が表示されます。",
+    "method1Desc": "Mcore 起動時にコンソールに WebUI Access Token が表示されます。",
     "method1Example1": "🔑 WebUI Access Token: abc123...",
     "method1Example2": "💡 この Token で WebUI にログインしてください",
     "method2Title": "方法２：設定ファイルを確認",
@@ -566,12 +566,12 @@
       "siliconFlow": {
         "about": {
           "title": "SiliconFlow について",
-          "description": "SiliconFlow は DeepSeek V3、Qwen、ビジョンモデル、音声認識、埋め込みモデルなど幅広いモデルを提供します。API Key が1つあれば MaiBot の全機能を利用できます。",
+          "description": "SiliconFlow は DeepSeek V3、Qwen、ビジョンモデル、音声認識、埋め込みモデルなど幅広いモデルを提供します。API Key が1つあれば Mcore の全機能を利用できます。",
           "link": "SiliconFlow で API Key を取得する"
         },
         "apiKey": {
           "label": "SiliconFlow API Key *",
-          "description": "SiliconFlow の API Key を入力してください。入力後、MaiBot が必要なモデルを自動設定します。",
+          "description": "SiliconFlow の API Key を入力してください。入力後、Mcore が必要なモデルを自動設定します。",
           "show": "API Key を表示",
           "hide": "API Key を隠す"
         },
@@ -611,9 +611,9 @@
   "restart": {
     "preparing": "再起動を準備中",
     "preparingDesc": "再起動リクエストを送信中...",
-    "preparingTip": "🔄 MaiBot の再起動を準備中...",
-    "restarting": "MaiBot を再起動中",
-    "restartingDesc": "しばらお待ちください、MaiBot が再起動中です...",
+    "preparingTip": "🔄 Mcore の再起動を準備中...",
+    "restarting": "Mcore を再起動中",
+    "restartingDesc": "しばらお待ちください、Mcore が再起動中です...",
     "restartingTip": "🔄 設定を保存しました、メインプロセスを再起動中...",
     "checking": "サービス状態を確認中",
     "checkingDesc": "サービスの回復を待機中... ({{current}}/{{max}})",
@@ -688,9 +688,9 @@
   },
   "home": {
     "title": "リアルタイムモニター",
-    "subtitle": "MaiBotの稼働状況と統計データの一覧",
+    "subtitle": "Mcoreの稼働状況と統計データの一覧",
     "loading": "統計データを読み込み中...",
-    "loadingHint": "MaiBotの稼働データを取得しています",
+    "loadingHint": "Mcoreの稼働データを取得しています",
     "timeRange": {
       "24h": "24時間",
       "7d": "7日間",
@@ -698,14 +698,14 @@
     },
     "autoRefresh": "自動更新",
     "botStatus": {
-      "title": "MaiBot ステータス",
+      "title": "Mcore ステータス",
       "running": "稼働中",
       "stopped": "停止中",
       "uptime": "稼働 {{time}}"
     },
     "quickActions": {
       "title": "クイック操作",
-      "restart": "MaiBotを再起動",
+      "restart": "Mcoreを再起動",
       "restarting": "再起動中...",
       "expressionReview": "表現レビュー",
       "viewLogs": "ログを見る",
@@ -716,7 +716,7 @@
       "title": "フィードバック",
       "description": "製品体験の改善にご協力ください",
       "webui": "WebUI フィードバック",
-      "maibot": "MaiBot フィードバック"
+      "maibot": "Mcore フィードバック"
     },
     "stats": {
       "totalRequests": "総リクエスト数",

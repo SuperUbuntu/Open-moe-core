@@ -6,8 +6,8 @@
     "viewAnnualSummary": "View annual summary",
     "annualSummary": "2025 Annual Summary",
     "searchPlaceholder": "Search...",
-    "viewDocs": "View MaiBot docs",
-    "docs": "MaiBot Docs",
+    "viewDocs": "View Mcore docs",
+    "docs": "Mcore Docs",
     "switchToLight": "Switch to light mode",
     "switchToDark": "Switch to dark mode",
     "logout": "Log out",
@@ -45,7 +45,7 @@
   },
   "layout": {
     "verifyingLogin": "Verifying login status...",
-    "logoTitle": "MaiBot WebUI",
+    "logoTitle": "Mcore WebUI",
     "logoTitleShort": "M"
   },
   "settings": {
@@ -291,7 +291,7 @@
     },
     "about": {
       "openSource": "Open Source",
-      "aboutApp": "About MaiBot Dashboard",
+      "aboutApp": "About Mcore Dashboard",
       "version": "Version:",
       "author": "Author",
       "techStack": "Tech Stack",
@@ -303,8 +303,8 @@
       "openSourceLicense": "Open Source License",
       "openSourceDesc": "This project is open source on GitHub. Give us a Star ⭐!",
       "visitGitHub": "Visit GitHub",
-      "appDesc": "A modern Web management interface for MaiBot",
-      "maimaiCore": "MaiBot Core",
+      "appDesc": "A modern Web management interface for Mcore",
+      "maimaiCore": "Mcore Core",
       "uiFrameworkGroup": "UI Framework & Components",
       "routingStateGroup": "Routing & State Management",
       "formGroup": "Form Handling",
@@ -351,16 +351,16 @@
     "loginFailed": "Login failed",
     "loginSuccess": "Login successful",
     "checkingAuth": "Checking login status...",
-    "welcome": "Welcome to MaiBot",
+    "welcome": "Welcome to Mcore",
     "accessDesc": "Enter your Access Token to continue accessing the system",
     "tokenRequired": "Please enter your Access Token",
     "verifyingLabel": "Verifying...",
     "verifyEnter": "Verify & Enter",
     "helpLink": "I don't have a Token. Where can I get one?",
     "helpTitle": "How to Get an Access Token",
-    "helpDesc": "Access Token is the only credential to access MaiBot WebUI. Get yours in one of the following ways",
+    "helpDesc": "Access Token is the only credential to access Mcore WebUI. Get yours in one of the following ways",
     "method1Title": "Method 1: Check Startup Log",
-    "method1Desc": "When MaiBot starts, the console will display the WebUI Access Token.",
+    "method1Desc": "When Mcore starts, the console will display the WebUI Access Token.",
     "method1Example1": "🔑 WebUI Access Token: abc123...",
     "method1Example2": "💡 Use this Token to log in to WebUI",
     "method2Title": "Method 2: Check Config File",
@@ -566,12 +566,12 @@
       "siliconFlow": {
         "about": {
           "title": "About SiliconFlow",
-          "description": "SiliconFlow provides broad model coverage, including DeepSeek V3, Qwen, vision models, speech recognition, and embedding models. A single API key unlocks all MaiBot features.",
+          "description": "SiliconFlow provides broad model coverage, including DeepSeek V3, Qwen, vision models, speech recognition, and embedding models. A single API key unlocks all Mcore features.",
           "link": "Get an API key from SiliconFlow"
         },
         "apiKey": {
           "label": "SiliconFlow API Key *",
-          "description": "Enter your SiliconFlow API key. Once provided, MaiBot will automatically configure all required models.",
+          "description": "Enter your SiliconFlow API key. Once provided, Mcore will automatically configure all required models.",
           "show": "Show API key",
           "hide": "Hide API key"
         },
@@ -611,9 +611,9 @@
   "restart": {
     "preparing": "Preparing to restart",
     "preparingDesc": "Sending restart request...",
-    "preparingTip": "🔄 Preparing to restart MaiBot...",
-    "restarting": "Restarting MaiBot",
-    "restartingDesc": "Please wait, MaiBot is restarting...",
+    "preparingTip": "🔄 Preparing to restart Mcore...",
+    "restarting": "Restarting Mcore",
+    "restartingDesc": "Please wait, Mcore is restarting...",
     "restartingTip": "🔄 Config saved, restarting main process...",
     "checking": "Checking service status",
     "checkingDesc": "Waiting for service to recover... ({{current}}/{{max}})",
@@ -688,9 +688,9 @@
   },
   "home": {
     "title": "Live Monitor",
-    "subtitle": "MaiBot runtime status and statistics overview",
+    "subtitle": "Mcore runtime status and statistics overview",
     "loading": "Loading statistics...",
-    "loadingHint": "Fetching MaiBot runtime data",
+    "loadingHint": "Fetching Mcore runtime data",
     "timeRange": {
       "24h": "24 Hours",
       "7d": "7 Days",
@@ -698,14 +698,14 @@
     },
     "autoRefresh": "Auto Refresh",
     "botStatus": {
-      "title": "MaiBot Status",
+      "title": "Mcore Status",
       "running": "Running",
       "stopped": "Stopped",
       "uptime": "Up {{time}}"
     },
     "quickActions": {
       "title": "Quick Actions",
-      "restart": "Restart MaiBot",
+      "restart": "Restart Mcore",
       "restarting": "Restarting...",
       "expressionReview": "Expression Review",
       "viewLogs": "View Logs",
@@ -716,7 +716,7 @@
       "title": "Feedback Survey",
       "description": "Help us improve the experience",
       "webui": "WebUI Feedback",
-      "maibot": "MaiBot Feedback"
+      "maibot": "Mcore Feedback"
     },
     "stats": {
       "totalRequests": "Total Requests",

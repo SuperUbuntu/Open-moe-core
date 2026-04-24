@@ -70,10 +70,10 @@ export function Layout({ children }: LayoutProps) {
     }
 
     return router.subscribe('onResolved', () => {
-      const pageTitle = pathToLabel[router.state.location.pathname] ?? 'MaiBot Dashboard'
-      const fullTitle = pageTitle === 'MaiBot Dashboard'
-        ? 'MaiBot Dashboard'
-        : `${pageTitle} — MaiBot Dashboard`
+      const pageTitle = pathToLabel[router.state.location.pathname] ?? 'Mcore Dashboard'
+      const fullTitle = pageTitle === 'Mcore Dashboard'
+        ? 'Mcore Dashboard'
+        : `${pageTitle} — Mcore Dashboard`
 
       // 更新 document.title
       document.title = fullTitle
