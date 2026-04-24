@@ -1,5 +1,9 @@
 # Moe Core
 
+<p align="center">
+  <img src="docs/assets/moemoe-promo.jpg" alt="Moe Core Promo" width="720" />
+</p>
+
 Moe Core is a GPL-3.0 core engine for LLM-driven conversational agents. It keeps the runtime, memory, prompt, plugin, WebUI host, and message gateway foundations in this repository, while platform adapters are expected to live outside the core distribution.
 
 This project can be paired with external adapters for Telegram, local WebUI chat, or other messaging platforms through the plugin runtime and message gateway APIs. OpenClaw Moe Core is maintained as a community derivative of the original MaiBot codebase; it is not presented as an official MaiBot release.
