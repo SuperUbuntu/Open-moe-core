@@ -1,0 +1,16 @@
+Moe Core Notice
+================
+
+Moe Core is derived from the MaiBot project and retains GPL-3.0 licensing.
+
+Original upstream provenance:
+- Project name: MaiBot / MaiCore / MaiSaka
+- Historical upstream repository references include:
+  - https://github.com/Mai-with-u/MaiBot
+  - https://github.com/MaiM-with-u/MaiBot
+
+This repository is being refactored as a core-only distribution under the Moe Core / OpenClaw Moe Core name. It is a community derivative and is not represented as an official MaiBot release.
+
+The GPL-3.0 license text is included in LICENSE. Downstream users who modify or distribute this project must comply with GPL-3.0 and preserve applicable copyright, license, and provenance notices.
+
+Some internal APIs, dependency names, database filenames, or compatibility paths may still use historical MaiBot names to avoid breaking runtime compatibility.
